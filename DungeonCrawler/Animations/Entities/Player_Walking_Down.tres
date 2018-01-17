@@ -1,0 +1,19 @@
+[gd_resource type="Animation" format=1]
+
+[resource]
+
+resource/name = "Player_Walking_Down"
+length = 1.0
+loop = true
+step = 0.2
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:region_rect")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = {
+"times": FloatArray( 0, 0.2, 0.4, 0.6, 0.8, 1 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ Rect2( 6, 65, 18, 29 ), Rect2( 37, 63, 18, 28 ), Rect2( 67, 66, 18, 25 ), Rect2( 101, 66, 18, 29 ), Rect2( 133, 65, 18, 28 ), Rect2( 170, 68, 18, 25 ) ]
+}
+

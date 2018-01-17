@@ -1,0 +1,19 @@
+[gd_resource type="Animation" format=1]
+
+[resource]
+
+resource/name = "Player_Walking_Up"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:region_rect")
+tracks/0/interp = 1
+tracks/0/imported = false
+tracks/0/keys = {
+"times": FloatArray( 0, 0.2, 0.4, 0.6, 0.8, 1 ),
+"transitions": FloatArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ Rect2( 8, 7, 18, 24 ), Rect2( 39, 4, 18, 27 ), Rect2( 72, 6, 18, 25 ), Rect2( 104, 7, 18, 24 ), Rect2( 136, 4, 18, 27 ), Rect2( 172, 6, 18, 25 ) ]
+}
+
